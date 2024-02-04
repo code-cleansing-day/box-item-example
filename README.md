@@ -27,3 +27,8 @@ yarn dev
 - 주문의 총 가격은 localeString 형식 + 원 으로 표현합니다. ex. 12,400 원
 
 ![image](https://github.com/code-cleansing-day/box-item-example/assets/93258739/51ad24c8-f40d-4aae-81ca-2966ca25036b)
+
+---
+
+예제는 [리팩터링 구루](https://refactoring.guru/ko/design-patterns/composite)에서 가져왔습니다!
+코드 공유 및 피드백 이후에 읽어보면 좋을 거 같네요 :) 
