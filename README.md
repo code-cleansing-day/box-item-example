@@ -30,5 +30,5 @@ yarn dev
 
 ---
 
-예제는 [리팩터링 구루](https://refactoring.guru/ko/design-patterns/composite)에서 가져왔습니다!
+예제는 [리팩터링 구루](https://refactoring.guru/ko/design-patterns/composite)에서 착안하여 가져왔습니다!
 코드 공유 및 피드백 이후에 읽어보면 좋을 거 같네요 :) 
