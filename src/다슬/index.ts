@@ -29,15 +29,11 @@ class 충전기 extends 제품 {
   override 가격 = 25000;
 }
 
-class 영수증 extends 제품 {
-  override 가격 = 200;
-}
-
 // 상자에는 여러 개의 제품들과 여러 개의 작은 상자들을 가질 수 있다.
 class 상자 {
   제품들: 제품[] = [];
   상자들: 상자[] = [];
-  상자가격: number = 100;
+  상자가격 = 100;
 
   constructor(제품들: 제품[] = [], 상자들: 상자[] = []) {
     if (제품들) this.제품들 = 제품들;
@@ -57,14 +53,14 @@ class 상자 {
 
 class 주문 {
   주문목록: 상자;
-  영수증 = 200;
+  영수증가격 = 200;
 
   constructor(주문목록: 상자) {
     this.주문목록 = 주문목록;
   }
 
   총가격출력() {
-    return `${(this.주문목록.총가격 + this.영수증).toLocaleString()}원`;
+    return `${(this.주문목록.총가격 + this.영수증가격).toLocaleString()}원`;
   }
 }
 
